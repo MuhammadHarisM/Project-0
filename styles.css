@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+    </head>
+    <body>
+    	<div>
+        <nav>
+    		<ul>
+    			<li>Images</li>
+    			<li>Advance Search</li>
+    		</ul>
+         <form action="https://google.com/search">
+            <input type="text" name="q">
+            <input type="submit" value="Google Search">
+         </form>
+        </nav>
+        </div>
+    </body>
+</html>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1a0dab;
+    font-weight: bold;
+}
+        .navbar-google{
+
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex_end;
+}
+
+.rounded-input{
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #ffff;
+    border: 1px solid #dfele5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin; 0 auto;
+    width: calc(632px + 6px);
+    width: 548px;
+    max-width: 5 300px
+    margin-top: 10px;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    font-size: 81.25%;
+}
+
+.h1-advanced{
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+.line{
+    border-bottom: 1px solid ;
+}
+
+.h2-advanced{
+    font-size: 16px;
+    color: #333333;
+}
+
+.div-advanced{
+    margin: 50px;
+}
+
+.row-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left{
+    width: 200px;
+}
+
+.right{
+    width: 500px;
+}
+
+.form-control{
+    width: 385px;
+}
+
+.p-advanced{
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.btn-advanced{
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+}
+
+.btn-div{
+    display: flex;
+    justify-content: flex-end;
+    width: 585px;
+    margin-top: 30px;
+}
